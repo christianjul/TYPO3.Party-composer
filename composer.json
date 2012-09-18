@@ -1,0 +1,25 @@
+{
+    "name": "typo3/party",
+	"type": "flow3-framework",
+    "description": "A PHP implementation of the OASIS Customer Information Quality (CIQ) XML Standard.",
+	"homepage": "http://flow3.typo3.org",
+	"keywords": ["framework"],
+	"license": ["GPL-3.0+"],
+	"authors": [
+		{
+			"name": "FLOW3 Development Team",
+			"homepage": "http://typo3.org/teams/core-development-team/"
+		}
+	],
+
+	"version": "1.2.0-dev",
+    "require": {
+		"typo3/flow3": "*"
+    },
+	"autoload": {
+		"psr-0": {
+			"TYPO3\\Party": "Classes"
+		}
+	}
+
+}
